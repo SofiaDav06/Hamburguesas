@@ -1,0 +1,79 @@
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('https://st4.depositphotos.com/1732591/21397/v/450/depositphotos_213976486-stock-illustration-background-pattern-with-hamburgers.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: rgb(250, 230, 47);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 48px; /* Tamaño ajustable según tus preferencias */
+    color: #34eb3d;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.content {
+    text-align: left;
+}
+
+.label {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.select-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.calculate-button {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.calculate-button:hover {
+    background-color: #34eb3d;
+}
+
+.result {
+    font-size: 22px;
+    color: #333;
+    margin-top: 25px;
+    text-align: center;
+}
+
+

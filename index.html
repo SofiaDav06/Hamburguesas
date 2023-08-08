@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Hamburguesas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="heading">🍔 El Náufrago 🍔</h1>
+        </div>
+        <div class="content">
+            <div class="input-group">
+                <label for="tipo" class="label">Tipo:</label>
+                <select name="tipo" id="tipo" class="select-input">
+                    <option value="sencilla">Sencilla</option>
+                    <option value="doble">Doble</option>
+                    <option value="triple">Triple</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="cantidad" class="label">Cantidad:</label>
+                <input id="cantidad" type="number" placeholder="Cantidad" class="select-input">
+            </div>
+            <div class="input-group">
+                <label for="tarjeta" class="label">Tarjeta:</label>
+                <select id="tarjeta" class="select-input">
+                    <option value="si">Sí</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <button class="calculate-button">¡Calcular ahora!</button>
+            <p id="resultado" class="result">El resultado es: </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
